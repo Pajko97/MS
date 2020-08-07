@@ -1,0 +1,53 @@
+.payment_body{
+    min-width:45%;
+    height:400px;
+    top:20%;
+    left:26%;
+    position:absolute;
+    background-color: #ffffff;
+    padding:20px;
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+}
+.payment_buttondiv{
+    position:absolute;
+    top:70%;
+    left:46.3%;
+}
+.payment_button{
+    border: 1px solid #3498db;
+    background:none;
+    padding:10px 20px;
+    font-size:20px;
+    font-family: "montserrat";
+    cursor:pointer;
+    margin:10px;
+    transition:0.8s;
+    position: relative;
+    overflow: hidden;
+    color:#3498db;
+    border-radius:4px;
+    width:100px;
+}
+.payment_button:hover{
+    color:#fff;
+   
+}
+.payment_button:focus{
+    outline:none;
+}
+.payment_button::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    left:0;
+    height:0%;
+    background:#3498db;
+    transition:0.8s;
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+.payment_button:hover::before{
+    height:180%;
+}

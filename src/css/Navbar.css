@@ -1,0 +1,340 @@
+.glista{
+    width:80px;
+    height:80px;
+    cursor: pointer;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    z-index: 0;
+    
+}
+
+.address_modal_modal {
+    width:500px;
+    height:500px;
+    z-index:1;
+}
+.address_modal_overlay {
+    z-index:500;
+    background-color: red;
+    margin-top:-20%;
+}
+
+li, a,span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color: #0c152c;
+    text-decoration: none;
+}
+.logo {
+    width:140px;
+    height:60px;
+    zoom: 1;
+}
+.heder{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:30px 1%;
+    background-color:#1b4041;
+    height:8vh;
+    
+}
+.korpa1{
+    width:50px;
+    height:50px;
+    border-radius:15px;
+
+}
+.korpa{
+    display:flex;
+    align-items:center;
+    cursor: pointer;
+    border-radius:50px;
+    background-color: whitesmoke;
+    border:1px solid whitesmoke;
+    
+}
+.korpa img {
+    width:40px;
+    margin:3px;
+    height:40px;
+}
+.korpa:hover{
+    background-color:#7BC4C7;
+    border:1px solid white;
+    
+}
+
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+.nav-links li{
+    display:inline-block;
+    padding:0px 30px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    font-size:16px;
+    padding:6px 12px;
+    border-radius: 20px;
+    color:whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0c152c;
+    text-decoration: none;
+    
+}
+.nav-links li a:hover {
+    background-color: whitesmoke;
+    color: #0c152c;
+}
+.nav-links li a::after{
+    content: '';
+    width:0%;
+   
+    
+    bottom:0%;
+    left:50%;
+    border-radius:10px;
+    transition: 0.2s ease-out;
+    border-bottom: 1px solid #A1FFCE; 
+   
+}
+.nav-links li a:hover::after{
+    left:0%;
+    width:100%;
+    
+
+}
+@media only screen and (min-width:320px) and (max-width:479px){
+    .logo{
+  
+        height:8vh;
+        max-width:60px;
+
+    }
+    .nav-links{
+        width:156px;
+        padding:5px;
+    }
+    .nav-links li{
+        padding:0px 7px;
+        padding-left:0px;
+        
+        
+    }
+    .nav-links li a{
+     font-size:10px;
+     color: black;
+     text-align: center;
+     padding:6px 0px!important;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: #399C9E;
+
+    }
+    .korpa {
+        margin-left: 15px;
+    }
+    .korpa img{
+       width:30px;
+       height:30px; 
+    }
+    .products_first {
+        padding:none;
+        height:92vh!important;
+    }
+    .products_first a:first-child {
+    }
+    .quantity_container {
+        display:flex;
+        flex-direction:row;
+        width:50vw!important;
+        margin:0;
+    }
+    .product_info_wrapper {
+        padding:auto 2vw;
+    }
+    .product_info_container {
+        width:88vw;
+    }
+    .item_info img {
+        width:80vw;
+    }
+    .quantity_container label {
+        width:30vw;
+    }
+    .home_main{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .quantity_container {}
+    .product img {
+        width:250px;
+        height:150px;
+    }
+    .contact_div {
+        width:80vw!important;
+        height:70vh!important;
+    }
+    .korpa1{
+        width:25px;
+        height:25px;
+    }
+    .korpa text{
+        font-size:13px;
+        
+    }
+    .cart_wrapper {
+        display:flex;
+        height:92vh;
+        flex-direction: row;
+        align-items:center!important;
+        justify-content: center!important;
+        width:100vw!important;
+    }
+    .cart_body {
+        width:80vw!important;
+        height:60vh!important;
+        margin-top:0px!important;
+        margin-left:0px!important;
+    }
+    .cart_wrapper form {
+     
+    }
+    /* Manager */
+    .producti_wrapper form{
+        display:flex!important;
+        flex-direction: column!important;
+    }
+    .producti_wrapper {
+        height:auto!important;
+    }
+    .left-div, .right-div {
+        width:100%!important;
+    }
+}
+/* small tablet and landscape smartphone res */
+@media only screen and (min-width:480px) and (max-width:767px){
+    .nav-links li{
+        width:80px;
+        padding:10px;
+        }
+        
+    .nav-links li a{
+        font-size:10px;
+        justify-content:center;
+        display:flex;
+        align-items:space-between;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .logo{
+        width:100px;
+    }
+    .korpa img{
+        width:30px;
+        height:30px;
+    }
+    .home_main{
+        display:flex;
+        
+        flex-direction: column;
+        align-items:center;
+    }
+    .products_wrapper{
+        height:auto!important;
+    }.contact_div{
+      height:500px!important;
+      width:450px!important;
+    }
+    .cart_body{
+        margin-left:0px!important;
+        width:300px!important;
+        height:400px!important;
+        
+    }
+    .cart_wrapper{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%!important;
+    }
+    .producti_wrapper form{
+        display:flex!important;
+        flex-direction: column!important;
+    }
+    .producti_wrapper {
+        height:auto!important;
+    }
+    .left-div, .right-div {
+        width:100%!important;
+    }
+    
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .nav-links li{
+        width:100px;
+        padding:10px;
+        }
+        
+    .nav-links li a{
+        font-size:14px;
+        justify-content:center;
+        display:flex;
+        align-items:space-between;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .logo{
+        width:100px;
+    }
+    .korpa img{
+        width:30px;
+        height:30px;
+    }
+    .home_main{
+        display:flex;
+        
+        flex-direction: column;
+        align-items:center;
+    }
+    .products_wrapper{
+        height:auto!important;
+    }.contact_div{
+      height:500px!important;
+      width:450px!important;
+    }
+    .cart_body{
+        margin-left:0px!important;
+        width:300px!important;
+        height:400px!important;
+        
+    }
+    .cart_wrapper{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%!important;
+    }
+    .producti_wrapper form{
+        display:flex!important;
+        flex-direction: column!important;
+    }
+    .producti_wrapper {
+        height:auto!important;
+    }
+    .left-div, .right-div {
+        width:100%!important;
+    }
+    
+}

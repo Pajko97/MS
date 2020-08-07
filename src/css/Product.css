@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Myriad Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/MYRIADPRO-BOLDCONDIT.woff') format('woff');
+    }
+.product_image {
+    height:250px;
+    width:400px;
+}
+@font-face {
+    font-family: 'Myriad Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/MyriadPro-Light.woff') format('woff');
+}
+
+ @font-face {
+        font-family: 'Myriad Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/MYRIADPRO-BOLDCOND.woff') format('woff');
+        }
+        .product_info_wrapper {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: white;
+            color: #0c152c;
+            
+        } 
+        .products_wrapper{
+            height:auto;
+        }
+.product_info_wrapper .product_header {
+    font-family : 'Myriad Bold';
+    font-size:55px;
+    color: #0c152c;
+}
+.product_info_wrapper .product_name {
+    color : black!important;
+    padding:10px 20px;
+}
+
+
+.product_info_wrapper .colors_pallete {
+    display:flex;
+    flex-direction: row;
+    width:300px;
+    margin-top:10px;
+    padding-left: 0px!important;
+    background-color: #399C9E;
+    justify-content: space-evenly;
+    padding:15px;
+}
+.product_button {
+    background-color: #399C9E;
+    font-family: 'Myriad Bold';
+    color: white;
+    font-size:20px;
+    border: none;
+    padding:10px 15px;
+}
+.product_info_container {
+    margin-top:50px;
+}
+.product_image_big {
+    width:500px;
+    height:350px;
+}
+.item_info p {
+    max-width:400px;
+}
+.color_box {
+    width:20px;
+    height:20px;
+    border-radius:50%;
+}
+.color_check_container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color_check_container input {
+    margin-top:10px;
+}
+
+.quantity_container {
+    background-color: #399C9E;
+    width:40%;
+    padding:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+    align-items:center;
+
+}
+.quantity_container label {
+    color: white;
+}
+.quantity_container input {
+    width:50px;
+    padding:5px 8px;
+    margin-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.color_box_red {
+    background-color: red!important;
+}
+.arrow_back {
+    width:10px;
+    height:10px;
+    background-color: black;
+}
+
+.arrow_forward {
+    width:10px;
+    height:10px;
+    background-color: black;
+}
+.color_box_green {
+    background-color: green;
+}
+
+.color_box_blue {
+    background-color: blue;
+}
+
+.color_box_yellow {
+    background-color: yellow;
+}
+
+.color_box_purple {
+    background-color: purple;
+}
+
+.color_box_red {
+    background-color: black;
+}
+.color_box_orange {
+    background-color: orange;
+}

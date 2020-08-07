@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Myriad Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/MyriadPro-Light.woff') format('woff');
+}
+
+.contact_div{
+    width:450px;
+    height:550px;
+    top:20%;
+    border:1px solid grey;
+    display:flex;
+    background-color:#399C9E;
+    z-index : 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    color:#3498DB;
+}
+
+.contact_wrapper {
+    height: 92vh;
+    display:flex;
+    font-family: 'Myriad Light';
+    align-items: center;
+    justify-content: space-around;
+    background-color:  whitesmoke;
+    width:100vw;
+}
+
+#con_textarea{
+    width:70%;
+    align-self:center;
+    height:200px;
+    resize: none;
+    border:none;
+    outline:none;
+    padding:8px;
+    font-family: 'Myriad Light';
+    box-sizing: border-box;
+    transition:0.3s;
+}
+#con_textarea:focus{
+border: none;
+}
+#inputcon{
+    width:70%;
+    align-self:center;
+    height:40px;
+    border:none!important;
+    
+}
+.contact_button{
+    border: 1px solid #3498db;
+    background:#0c152c;
+    padding:8px 17px;
+    font-size:16px;
+    border-radius: 20px;
+    cursor:pointer;
+    color: whitesmoke;
+    width:100px;
+    margin-top:-10px;
+    margin-bottom:30px;
+    
+}
+.contact_button:hover{
+    color:#0c152c;
+    background-color: whitesmoke;
+    font-size:16px;
+   
+}
+.contact_button:focus{
+    outline:none;
+}
+.contact_button::before{
+    content: "";
+    width:100%;
+    left:0;
+    height:0%;
+    background:#3498db;
+    transition:0.8s;
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+.contact_div h1 {
+    color : white!important;
+    font-size:20px;
+    margin-top:10px;
+}
+#inputcon{ 
+    border:2px solid #aaa;
+    outline:none;
+    padding:8px;
+    box-sizing: border-box;
+    transition:0.3s;
+    font-family : 'Myriad Light';
+    font-weight: 600;
+}
+.name_input, .email_input {
+    width:60%;
+}
+#inputcon:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}

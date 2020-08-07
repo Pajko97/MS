@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Myriad Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/MYRIADPRO-BOLDCOND.woff') format('woff');
+}
+
+.home_wrapper{
+    background-color: #0c152c;
+   /*  background-image:url('../images/pozadinska_slika.jpg'); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100vw;
+    height:92vh;
+    display:flex;
+    justify-content: space-around;
+}
+@font-face {
+    font-family: 'Myriad Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/MyriadPro-Light.woff') format('woff');
+}
+.home_main{
+    margin:5% 10%;
+    font-family: "Myriad Light";
+}
+
+#sd{
+text-align:center;
+word-break: break-all;
+color :white!important;
+}
+.home_button{
+    border: 1px solid ;
+    background:none;
+    padding:10px 20px;
+    font-size:20px;
+    
+    cursor:pointer;
+    margin:10px;
+    transition:0.4s;
+    color: #0c152c;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius:4px;
+    
+}
+.home_button:hover{
+    color:white;
+    background-color:#0c152c;
+   
+}
+.home_button:focus{
+    outline:none;
+}
+.home_button::before{
+    content: "";
+    width:100%;
+    left:0;
+    height:0%;
+    background:#3498db;
+    transition:0.8s;
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+.home_button:hover::before{
+    height:180%;
+}
+

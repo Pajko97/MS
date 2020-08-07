@@ -1,0 +1,120 @@
+
+
+@font-face {
+    font-family: 'Myriad Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/MYRIADPRO-BOLDCONDIT.woff') format('woff');
+    }
+
+
+@font-face {
+        font-family: 'Myriad Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/MYRIADPRO-BOLDCOND.woff') format('woff');
+    }
+.products_wrapper {
+    background-color:  whitesmoke;
+    color: #0c152c;
+    height:92vh;
+}
+.product_vector {
+    width:100%;
+    height:30px;
+    background-color:green;
+}
+.products_first{
+    
+   
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-flow: row wrap;
+flex: 1 100%;
+
+align-self: center;
+padding:6em;
+}
+.product_bg {
+    -webkit-box-shadow: -1px 0px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 8px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 8px 0px rgba(0,0,0,0.75);
+margin:20px;
+}
+.product_name {
+    font-size:24px;
+    font-family: "Myriad Bold", sans-serif;
+    font-size:40px;
+    color: #0c152c;
+    text-align: center;
+}
+.product_price {
+    color: white;
+}
+.products_first div {
+    color : black;
+}
+.product {
+    margin:1em;
+    display:flex;
+    flex-direction: column;
+}
+.product_vector {
+    z-index:3;
+}
+.left,
+.right{
+   width:50px;
+   height:50px;
+   transition: .5s;
+   float:left;
+   justify-content: space-between;
+   box-shadow: -2px 2px 0 dodgerBlue;
+   cursor: pointer;
+
+}
+.left{
+    transform: rotate(45deg)
+}
+.right{
+    transform: rotate(225deg)
+}
+.arrows{
+    padding:40% 0 0 48.7%;
+    
+}
+
+.current_bar {
+    background-color: red;
+    height:25px;
+    width:100%;
+}
+
+.current_bar_red {
+    background-color:red;
+}
+.current_bar_blue {
+    background-color: blue;
+}
+.current_bar_green {
+    background-color: green;
+}
+.current_bar_yellow {
+    background-color: yellow;
+}
+.current_bar_purple {
+    background-color: purple;
+}
+.current_bar_orange {
+    background-color: orange;
+}
+.current_bar_white {
+    background-color: white;
+}
+.current_bar_black {
+    background-color: black;
+}
+.current_bar_pink {
+    background-color: pink;
+}
