@@ -4,7 +4,15 @@
     font-weight: normal;
     src: url('../fonts/MYRIADPRO-BOLDCOND.woff') format('woff');
 }
-
+.arrow {
+    max-width:100px;
+    max-height:300px;
+    margin-top:5vh;
+}
+.logo {
+    height:25vh;
+    margin-top:-30vh;
+}
 .home_wrapper{
     background-color: #0c152c;
    /*  background-image:url('../images/pozadinska_slika.jpg'); */
@@ -12,7 +20,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width:100vw;
-    height:92vh;
+    height:100vh;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,10 +37,9 @@
     src: url('../fonts/MyriadPro-Light.woff') format('woff');
 }
 .home_main{
-    margin:-5% 3%;
-    height:40vh;
-    align-items: center;
     display:flex;
+    height:20vh;
+    align-items: center;
     flex-direction: column;
     font-family: "Myriad Light";
 }
@@ -44,6 +51,8 @@
 text-align:center;
 word-break: break-all;
 color :white!important;
+margin-top:2vh;
+margin-bottom:2vh;
 }
 .home_button{
     border: 1px solid ;
@@ -86,6 +95,9 @@ color :white!important;
 
 /* images sprites
 */
+.no_nav {
+    display:none!important;
+}
 .circle {
     cursor: pointer;
     width: 215px;

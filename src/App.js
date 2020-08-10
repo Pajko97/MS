@@ -15,10 +15,22 @@ import Info from './Components/Info'
 import { Provider } from 'react-redux';
 import store from './store'
 import Galery from './Components/Galery'
-export default class App extends React.Component {
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+  }
+  componentDidMount() {
+
+  }
+
+
+
 
 
   render() {
+
     return (
 
       <div>
@@ -43,4 +55,4 @@ export default class App extends React.Component {
 }
 
 
-
+export default App
